@@ -1,1 +1,2 @@
-# car_price_predictor
+# car-dekho-price-predictor
+A regression problem based on car dekho dataset
