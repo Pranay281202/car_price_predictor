@@ -8,7 +8,7 @@ pipe = pickle.load(open('pipe.pkl','rb'))
 st.header('Car Price Predictor')
 
 # year
-year = st.number_input('Make year')
+year = st.number_input('Year')
 # km driven
 kms = st.number_input('KMs driven')
 # fuel
