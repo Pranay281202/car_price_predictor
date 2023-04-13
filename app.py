@@ -39,4 +39,4 @@ if st.button('Predict Price'):
     st.title("Rs " + str(np.round(y_pred[0])))
 
     if st.button("Reset"):
-    input_sms=""
+        input_sms=""
