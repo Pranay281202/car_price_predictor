@@ -37,3 +37,6 @@ if st.button('Predict Price'):
     #st.dataframe(input)
     y_pred = pipe.predict(input)
     st.title("Rs " + str(np.round(y_pred[0])))
+
+    if st.button("Reset"):
+    input_sms=""
