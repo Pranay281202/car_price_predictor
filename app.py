@@ -9,11 +9,11 @@ st.header('Car Price Predictor')
 
 # year
 year = st.number_input('Year')
-# km driven
+# km_driven
 kms = st.number_input('KMs driven')
 # fuel
 fuel = st.selectbox('Fuel Type',('Diesel','Petrol'))
-# seller type
+# seller_type
 seller = st.selectbox('Seller Type',('Individual','Dealer'))
 # transmission
 transmission = st.selectbox('Transmission',('Manual','Automatic'))
@@ -23,7 +23,7 @@ owner = st.selectbox('Owner',('First Owner','Second Owner','Third Owner'))
 mileage = st.number_input('Mileage')
 # engine
 engine = st.number_input('Engine')
-# max power
+# max_power
 power = st.number_input('Max Power')
 # seats
 seats = st.number_input('Seats')
